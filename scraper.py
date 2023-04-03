@@ -9,8 +9,11 @@ import time
 import tqdm
 
 options = Options()
-options.add_experimental_option("detach", True)
+#options.add_argument('--headless')
+# options.add_argument('--no-sandbox')
+# options.add_argument('--disable-dev-shm-usage')
 
+options.add_experimental_option("detach", True)
 options.add_argument("--window-size=1920,1080")
 
 
